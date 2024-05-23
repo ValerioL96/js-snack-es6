@@ -73,3 +73,15 @@
    ];
 
    console.log(guestList);
+
+   //3) creo un ciclo foEach per stampare in console ogni elemento dei posti;
+
+     guestList.forEach((element)=>{
+        
+        console.log(element.tableName);
+        console.log(element.guestName);
+        console.log(element.place);
+        console.log('');
+    })
+
+   
