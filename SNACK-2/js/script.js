@@ -45,3 +45,20 @@
  const newClass = classList.map((student)=>{
     return '${student.name.toUpperCase()}';
    });
+
+
+//3) creo due array vuoti :
+
+ const studentsA = [];
+ const studentsB = [];
+
+//4) creo un ciclo forEach in cui  metto delle condizioni:
+
+  classList.forEach((student)=>{
+     if(student.grades>70){
+ 
+     return studentsA;
+     }else(student.grades>70 && student.Id>120){
+         return studentsB
+     }
+ })   

@@ -64,9 +64,9 @@ Abbiamo un elenco degli studenti di una facoltà, identificati da id, Nome e som
 
     - class.forEach((student)=>{
         if(student.grades>70){
-            return studentsA;
+    
+        return studentsA;
         }else(student.grades>70 && student.Id>120){
             return studentsB
         }
     })
-
