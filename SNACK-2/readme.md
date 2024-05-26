@@ -55,12 +55,12 @@ Abbiamo un elenco degli studenti di una facoltà, identificati da id, Nome e som
 * Dobbiamo creare una lista di tutti gli studenti che hanno un totale di voti superiore a 70
 * Dobbiamo creare una lista di tutti gli studenti che hanno un totale di voti superiore a 70 e id superiore a 120
 
-2) creo due array vuoti :
+3) creo due array vuoti :
 
    - const studentsA = [];
    - const studentsB = [];
 
-3) creo un ciclo forEach in cui  metto delle condizioni:
+4) creo un ciclo forEach in cui  metto delle condizioni:
 
     - class.forEach((student)=>{
         if(student.grades>70){

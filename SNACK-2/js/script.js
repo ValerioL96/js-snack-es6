@@ -39,3 +39,9 @@
    ];
 
    console.log(classList);
+
+//2) creo una lista nuova di alunni in cui avrò un map che mi stamperà il nome in maiuscolo:
+
+ const newClass = classList.map((student)=>{
+    return '${student.name.toUpperCase()}';
+   });
