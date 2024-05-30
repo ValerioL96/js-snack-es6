@@ -32,3 +32,9 @@
         foulsImmediately: '0',
     },
 ]
+
+//Generare numeri random al posto degli 0 nelle proprietà: punti fatti e falli subiti.
+
+//2) genero numeri randomici:
+
+ const randomNumber= Math.floor(Math.random()*10)+1;

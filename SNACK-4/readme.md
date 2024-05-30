@@ -43,7 +43,7 @@ Generare numeri random al posto degli 0 nelle proprietà: punti fatti e falli su
 
 - const randomNumber= Math.floor(Math.random()*10)+1;
 
-2) creo un ciclo forEach con delle condizioni:
+3) creo un ciclo forEach con delle condizioni:
 
 - footballTeams.forEach( (team) => {
     if(randomNumber > 0){
