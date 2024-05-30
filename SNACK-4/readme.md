@@ -57,6 +57,6 @@ Generare numeri random al posto degli 0 nelle proprietà: punti fatti e falli su
 
 Infine usando la destrutturazione creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
 
-const {name, foulsImmediately} = footballTeams
+- const {name, foulsImmediately} = footballTeams
 
-console.log(name,foulsImmediately);
+ - console.log(name,foulsImmediately);
